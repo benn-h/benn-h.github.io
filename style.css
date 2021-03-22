@@ -1,7 +1,23 @@
 body {
-    background: lightyellow;
+    margin: 25px 50px;
+    background: rgb(104, 142, 199);
     font: 18px Arial, sans-serif;
 }
 h1 {
-    color: orange;
+    color: rgb(255, 165, 0);
+}
+.circle {
+    height: 60px;
+    width: 60px;
+    background-color: rgb(85, 85, 85);
+    border: 2px ridge rgb(255, 99, 71);
+    border-radius: 50%;
+}
+.triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid rgb(240, 240, 240);
+    opacity: 0.8;
 }
